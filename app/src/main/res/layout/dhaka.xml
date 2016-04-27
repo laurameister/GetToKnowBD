@@ -1,0 +1,57 @@
+<ScrollView
+    android:background="#cdcfe6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="18sp"
+            android:text="Dhaka, set beside the Buriganga River, is the capital of Bangladesh. It’s a hub for trade and culture, with a long history as a seat of government. In the 17th century, it was the Mughal capital of Bengal, and many palaces and mosques from that period remain. American architect Louis Kahn's National Parliament House complex typifies this fast-growing modern metropolis."
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:src="@drawable/dhaka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:textSize="10sp"
+            android:text="Image: Dhaka Skyline; Source: Wikipedia"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:text="Modern Dhaka is one of Bangladesh's twin economic centres, along with Chittagong, to which it is connected by the Grand Trunk Road and the Bangladesh Railway. The city was the 2012 ISESCO Asian Capital of Culture.[13] It is served by Shahjalal International Airport. As the most densely populated and one of the fastest growing megacities in the world,[14] it faces many challenges common to a developing world metropolis, including traffic congestion, crime, urban pollution and poverty. With daily traffic of over 600,000 cycle rickshaws, Dhaka is nicknamed as the Rickshaw Capital of the World."
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:text="Area: 315 mi²
+Elevation: 13.12′
+Local time: Wednesday 2:53 PM
+Hotels: 3-star averaging $80, 5-star averaging $290. View hotels
+Weather: 95°F (35°C), Wind W at 9 mph (14 km/h), 47% Humidity
+Population: 6.97 million (2011)
+Establishment: 1608"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

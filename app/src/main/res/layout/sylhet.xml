@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="#27f13b"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Sylhet is a major city that lies on the banks of Surma River in north-east Bangladesh. As of the 2011 census, the city has a population of 479,837.[1] It is surrounded by tea estates, sub-tropical hills, rain forests and river valleys; the region is one of the leading tourist destinations in the country. The city has one of the highest literacy rates in the country. Many Sylhetis live abroad, particularly in London of the UK, where they form a prominent community."
+            android:textColor="#131212"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <ImageView
+            android:src="@drawable/sylhet"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true" />
+        <TextView
+            android:text="Image: Sylhet Tea Garden"
+            android:textColor="#131212"
+            android:textSize="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:text="Sylhet is a prominent Islamic spiritual centre and home to numerous Sufi shrines. Sylhet has a reputation as the Spiritual Capital of Bangladesh.[5] also recognised as The Holy land of Bangladesh. It hosts the 14th century mausoleums of Shah Jalal and Shah Paran. The Sylhet municipality was constituted during the British Raj in 1867.[6] It was part of the Bengal Presidency and the Assam Province. Upon a referendum, it became part of East Bengal in the Pakistani Dominion after the Partition of British India in 1947. Sylhet became a focal point for Bengali revolutionaries during the Bangladesh Liberation War in 1971. It was the hometown of General M A G Osmani, the Commander-in-Chief of Bangladesh Forces.
+
+The Sylhet Division produces most of Bangladesh's tea yield, fertiliser and natural gas.[7] It is also known for its cane, citrus, timber and agarwood.[8][9][10] Sylhet is a major recipient of remittances from the Bangladeshi diaspora, particularly from the United Kingdom. The city is served by the Osmani International Airport. It is connected to the Port of Chittagong by the N2 and the Bangladesh Railway. The Bangladesh-India border in Tamabil is located to the north of the city. Sylhet is also home to the Shahjalal University of Science and Technology. Sylhet has an international cricket stadium, Sylhet Agricultural University, Shahjalal Fertiliser Factory Ltd"
+            android:layout_marginTop="10dp"
+            android:textColor="#131212"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</ScrollView>
