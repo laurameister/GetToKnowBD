@@ -26,19 +26,27 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         switch (v.getId()){
             case R.id.button:
-                setContentView(R.layout.dhaka);
+                Intent i = new Intent(getApplicationContext(),Main2Activity.class);
+                startActivity(i);
+                //setContentView(R.layout.dhaka);
                 //Toast.makeText(MainActivity.this,"Test",Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button2:
-                setContentView(R.layout.chittagong);
+                Intent j = new Intent(getApplicationContext(),Main3Activity.class);
+                startActivity(j);
+                //setContentView(R.layout.chittagong);
                 //Toast.makeText(MainActivity.this,"Test",Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button3:
-                setContentView(R.layout.khulna);
+                Intent k = new Intent(getApplicationContext(),Main4Activity.class);
+                startActivity(k);
+                //setContentView(R.layout.khulna);
                 //Toast.makeText(MainActivity.this,"Test",Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button4:
-                setContentView(R.layout.sylhet);
+                Intent l = new Intent(getApplicationContext(),Main5Activity.class);
+                startActivity(l);
+                //setContentView(R.layout.sylhet);
                 //Toast.makeText(MainActivity.this,"Test",Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button5:
