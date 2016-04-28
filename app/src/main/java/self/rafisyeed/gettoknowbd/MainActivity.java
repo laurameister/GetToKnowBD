@@ -22,8 +22,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
 
-        
-
         switch (v.getId()){
             case R.id.button:
                 Intent i = new Intent(getApplicationContext(),Main2Activity.class);
@@ -62,6 +60,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                     }
                 }).setIcon(android.R.drawable.ic_delete).setCancelable(false).show();
+                break;
+            case R.id.button6:
+                new AlertDialog.Builder(this).setTitle("About").setMessage("Created by: rafiSyeed\nBuild No: 1").setPositiveButton("Okay", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                }).setIcon(android.R.drawable.ic_menu_info_details).show();
                 break;
 
         }

@@ -18,6 +18,7 @@
             android:textSize="18sp"
             android:textColor="#000000"/>
         <ImageView
+            android:paddingTop="10dp"
             android:src="@drawable/khulna"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -34,7 +35,7 @@
             android:text="Khulna is an old river port located on the Rupsha River. It is an important hub of Bangladeshi industry and hosts many national companies. It is served by Port of Mongla, the second largest seaport in the country. It is also one of the two principal naval command centres of the Bangladesh Navy.
 
 A colonial steamboat service, including the fleet Tern, Osrich and Lepcha, continues to operate on the river route to the city. It is regarded as the gateway to the Sundarbans, the world's largest tidal forest and home of the Bengal tiger. Khulna is also situated north of the Historic Mosque City of Bagerhat, a UNESCO World Heritage Site."
-            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
